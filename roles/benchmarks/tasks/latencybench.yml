@@ -1,0 +1,3 @@
+---
+  - name: "Run Ping latency check"
+    shell: ping -q -c 20000 -f {{ ping_target }} | grep -iv ping > /tmp/latency.txt 2>&1

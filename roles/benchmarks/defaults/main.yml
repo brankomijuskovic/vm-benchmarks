@@ -1,0 +1,4 @@
+---
+ping_target: "ricardo.ch"
+fio_size: "6g"
+fio_runtime: 180

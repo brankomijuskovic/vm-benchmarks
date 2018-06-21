@@ -1,0 +1,10 @@
+---
+  - name: "Copy FIO script"
+    template: src=fio.sh dest=/root/ mode=777
+    tags: fio
+
+  - name: "Warmup FIO script"
+    shell: /root/fio.sh
+
+  - name: "Run FIO script"
+    shell: /root/fio.sh > /tmp/fio.txt

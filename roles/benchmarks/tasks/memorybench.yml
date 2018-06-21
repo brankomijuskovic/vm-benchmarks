@@ -1,0 +1,4 @@
+---
+  - name: "Run Memory Sysbench"
+    shell: sysbench --test=memory --memory-block-size=1M --memory-total-size={{ ansible_memtotal_mb * 8 }}M --num-threads=1 run | grep -E 'total|percentile' > /tmp/mem.txt 2>&1
+  

@@ -1,0 +1,4 @@
+---
+  - name: "Run CPU Sysbench"
+    shell: sysbench --test=cpu --threads={{ ansible_processor_vcpus }} --events=10000 --time=0 --cpu-max-prime=99999 run | grep -E 'total|percentile|second' > /tmp/cpu.txt 2>&1
+  
