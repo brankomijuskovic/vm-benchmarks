@@ -10,6 +10,9 @@
 - name: Ensure Postfix is running
   service: name=postfix state=started enabled=yes
 
+- name: Copy Git config
+  copy: src=gitconfig dest=/root/.gitconfig mode=0700
+
 - include: cpubench.yml
 
 - include: memorybench.yml
