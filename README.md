@@ -3,7 +3,7 @@ CPU, Memory, Network latency (Ping) and Disk (FIO) benchmarks.
 CentOS 7 is the only OS supported for now.
 
 # Usage:
-curl -sO https://raw.githubusercontent.com/HiagData/vm-benchmarks/master/deploy.sh && bash deploy.sh [-m youremailadress@yourdomain.com]
+curl -sO https://raw.githubusercontent.com/brankomijuskovic/vm-benchmarks/master/deploy.sh && bash deploy.sh [-m youremailadress@yourdomain.com]
 
 The script requires root access.
 
