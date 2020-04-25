@@ -73,10 +73,10 @@ with open(results_fio, 'r') as fio:
     fio_4 = (lines[3].split()[0].rstrip(',') + ' ' + lines[3].split()[1] + ' ' + lines[3].split()[2].rstrip(':') + '='
              + lines[3].split()[3].split('=')[1])
     fio_5 = (lines[4].split()[1].rstrip(',') + '  ' + lines[4].split()[0].split('=')[0].upper() + '=' +
-             lines[4].split()[0].split('=')[01] + ' ' + lines[4].split()[2].rstrip(':') +
+             lines[4].split()[0].split('=')[1] + ' ' + lines[4].split()[2].rstrip(':') +
              '=' + lines[4].split()[3].split('=')[1])
     fio_6 = (lines[5].split()[1].rstrip(',') + '  ' + lines[5].split()[0].split('=')[0].upper() + '=' +
-             lines[5].split()[0].split('=')[01] + ' ' + lines[5].split()[2].rstrip(':') +
+             lines[5].split()[0].split('=')[1] + ' ' + lines[5].split()[2].rstrip(':') +
              '=' + lines[5].split()[3].split('=')[1])
 
 

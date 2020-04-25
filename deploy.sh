@@ -2,7 +2,7 @@
 # Script for deploying CPU, Memory, Network latency and Disk benchmarks
 # @21.6.2018 Branko Mijuskovic
 
-repo='https://github.com/HiagData/vm-benchmarks.git'
+repo='https://github.com/brankomijuskovic/vm-benchmarks.git'
 dir='vm-benchmarks'
 
 yum -y install epel-release
